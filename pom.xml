@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.6-SNAPSHOT</version>
 
 	<name>maven-web-application</name>
 
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Arcadmy Technologies Releases Nexus Repository</name>
-	      <url>http://3.110.54.123:7777/test/repository/amazon-release/</url>
+	      <url>http://65.2.35.2:7777/test/repository/amazon-release/</url>
 	    </repository>
 
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Arcadmy Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.110.54.123:7777/test/repository/amazon-snap/</url>
+	      <url>http://65.2.35.2:7777/test/repository/amazon-snap/</url>
 	    </snapshotRepository>
 
 	</distributionManagement>
