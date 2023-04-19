@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>P2pro Technologies- Home Page</title>
+<title>DEVOPS Technologies- Home Page</title>
 <link href="images/P2pro-logo.jpg" rel="icon">
 </head>
 </head>
 <body>
 <h1 align="center">Welcome to DEVOPS Technology Solution Pvt Ltd. Hyderabad, Telangana </h1>
-<h1 align="center"> "P2pro Technology Solution Pvt Ltd-Apr 19th 2023","This job is triggred from POLL SCM" Very Good Training center for DevOps with AWS....Teaching Real Time scnerios in all the technologies</h1>
+<h1 align="center"> "P2pro Technology Solution Pvt Ltd- POLL SCM","This job is triggred from POLL SCM" Very Good Training center for DevOps with AWS....Teaching Real Time scnerios in all the technologies</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
