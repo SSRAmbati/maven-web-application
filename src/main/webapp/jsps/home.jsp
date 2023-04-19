@@ -9,8 +9,8 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to P2pro Technology Solution Pvt Ltd. Hyderabad, Telangana </h1>
-<h1 align="center"> "P2pro Technology Solution Pvt Ltd-Jan 19th 2023","This job is triggred from POLL SCM" Very Good Training center for DevOps with AWS....Teaching Real Time scnerios in all the technologies</h1>
+<h1 align="center">Welcome to DEVOPS Technology Solution Pvt Ltd. Hyderabad, Telangana </h1>
+<h1 align="center"> "P2pro Technology Solution Pvt Ltd-Apr 19th 2023","This job is triggred from POLL SCM" Very Good Training center for DevOps with AWS....Teaching Real Time scnerios in all the technologies</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
