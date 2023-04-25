@@ -1,0 +1,57 @@
+pipeline
+{
+    agent any 
+    tools 
+    {
+        maven 'maven_3.8.6'
+    }
+    triggers 
+    {
+        pollSCM ('* * * * *')
+    }
+    
+    stages 
+    {
+          stage ('git checkout')
+        {
+            steps 
+            {
+                git branch: 'development', changelog: false, credentialsId: '23c59cad-3638-47e2-9e07-7834ca0034ae', poll: false, url: 'https://github.com/SSRAmbati/maven-web-application.git'
+            }
+        }
+          stage ('maven build')
+        {
+            steps 
+            {
+                sh "mvn clean package"
+            }
+        }
+        
+          stage ('sonarqube')
+        {
+            steps 
+            {
+                sh 'mvn clean sonar:sonar'
+            }
+        }
+        
+        stage ('nexus') 
+        {
+            steps
+            {
+                sh 'mvn clean deploy'
+            }
+        }
+        
+        stage ('tomcat')
+        {
+            steps 
+            {
+                 sshagent(['20927153-cc34-4d41-86bb-821b0714440b'])
+               {
+                 sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.127.186.123:/opt/apache-tomcat-9.0.73/webapps/"
+               }
+            }
+        }
+    }
+}
