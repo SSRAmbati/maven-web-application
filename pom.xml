@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Arcadmy Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.253.138:7777/test/repository/amazon-release/</url>
+	      <url>http://65.2.81.179:7777/test/repository/amazon-release/</url>
 	    </repository>
 
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Arcadmy Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.253.138:7777/test/repository/amazon-snap/</url>
+              <name>Arcadmy Technologies Snapshot Nexus Repository </name>
+	      <url>http://65.2.81.179:7777/test/repository/amazon-snap/</url>
 	    </snapshotRepository>
 
 	</distributionManagement>
